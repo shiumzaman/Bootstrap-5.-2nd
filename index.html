@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fonts -->
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BT5</title>
+  </head>
+  <body>
+
+    <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationDefault01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefaultUsername" class="form-label">Username</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend2">@</span>
+      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationDefault03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationDefault03" required>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault04" class="form-label">State</label>
+    <select class="form-select" id="validationDefault04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+        <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">    Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+        <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Default checkbox
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+        Checked checkbox
+      </label>
+    </div>
+
+    <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+  <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+</div>
+
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+    <p><del>This line of text is meant to be treated as deleted text.</del></p>
+    <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+    <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+    <p><u>This line of text will render as underlined.</u></p>
+    <p><small>This line of text is meant to be treated as fine print.</small></p>
+    <p><strong>This line rendered as bold text.</strong></p>
+    <p><em>This line rendered as italicized text.</em></p>
+
+    <h1 class="display-1">Bootstrap 1</h1>
+    <h1 class="display-2">Bootstrap 2</h1>
+    <h1 class="display-3">Bootstrap 3</h1>
+    <h1 class="display-4">Bootstrap 4</h1>
+    <h1 class="display-5">Bootstrap 5</h1>
+    <h1 class="display-6">Bootstrap 6</h1>
+
+    <!-- JS links-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
